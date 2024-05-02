@@ -138,7 +138,7 @@ const AllVillages = () => {
                     </div>
                 </div>
                 <div className='masterVillageCard'>
-                    {villages.map((village) => (
+                    {Array.isArray(villages) && villages.map((village) => (
                         <div key={village.village_id} className="villageCard">
                             <Link to={`/users/villages/village/${village.village_id}`} className="villageLink">
                                 {village.village_name}
