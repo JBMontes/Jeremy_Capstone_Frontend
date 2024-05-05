@@ -39,3 +39,5 @@ The Village App is a comprehensive safety and emergency service platform designe
 - After logging in, users can create and manage their villages, add emergency contacts, and configure notification settings.
 - To trigger an emergency alert, users simply need to tap the designated emergency button on the app interface.
 - Village administrators can access additional management tools through the admin dashboard.
+
+ENJOY!
