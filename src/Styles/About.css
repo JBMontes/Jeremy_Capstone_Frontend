@@ -50,6 +50,33 @@
   left: 20px;
 }
 
+.h2Icon:hover {
+  border: 2px solid black;
+  background-color: orangered;
+  border-radius: 45px;
+  animation: none;
+}
+
+.h2Icon {
+  /* border: 3px solid black; */
+  /* font-family: "Noto Color Emoji", sans-serif; */
+
+  font-family: "Noto Color Emoji", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* margin: 10px; */
+  animation: logo-spin infinite 10s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 @media screen and (max-width: 430px) {
   .aboutBody {
     background-image: url("/stickmanHeart.jpg");
@@ -101,5 +128,17 @@
   .howToUse h2 {
     position: relative;
     left: 20px;
+  }
+
+  .h2Icon {
+    font-family: "Noto Color Emoji", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    /* margin: 10px; */
+    animation: logo-spin infinite 10s linear;
+    position: relative;
+    animation: none;
+    bottom: 40px;
   }
 }

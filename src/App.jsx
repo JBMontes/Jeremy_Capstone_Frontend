@@ -20,6 +20,7 @@ import LoginSignup from "./Components/LoginSignup.jsx";
 import LandingHomePage from "./Pages/LandingHomePage.jsx";
 import About from "./Pages/About.jsx";
 import EditProfilePage from "./Pages/EditProfilePage.jsx";
+import AboutDev from "./Pages/AboutDev.jsx";
 // import ColorChange from "./Components/ColorChange.jsx";
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
           <Route path="/" element={<LandingHomePage />} />
 
           <Route path="/about" element={<About/>} />
+
+          <Route path="/aboutDev" element={<AboutDev/>} />
+
           
           <Route
             path="users/sign-up"
