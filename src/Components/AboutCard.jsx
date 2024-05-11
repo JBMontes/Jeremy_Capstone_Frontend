@@ -1,4 +1,4 @@
-import "../styles/AboutDev.css"
+import "../Styles/AboutDev.css"
 
 import github from "/github-mark.svg"
 
