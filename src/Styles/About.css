@@ -66,6 +66,8 @@
   font-style: normal;
   /* margin: 10px; */
   animation: logo-spins infinite 10s linear;
+  position: relative;
+  bottom: 0px;
 }
 
 @keyframes logo-spins {
