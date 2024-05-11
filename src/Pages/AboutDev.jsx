@@ -1,4 +1,4 @@
-import "../styles/AboutDev.css"
+import "../Styles/AboutDev.css"
 import team from "../team.json"
 import AboutCard from "../Components/AboutCard"
 
