@@ -4,22 +4,12 @@
     height: 0;
     overflow: hidden;
     z-index: -1;
-    content: url('/villageLogo2.jpg') url('/dadAndSon.jpg') url('/heart1.jpg') url('/hearthand1.jpg') url('/hearthand1.jpg') url('/HeartBallon.jpg') url('/b&wHeartBalloon.jpg') url('/manyBalloons.jpg') url('/stickmanHeart.jpg') url('/stickmanCheck.jpg')
+    content: url('/villageLogo2.jpg')  url('/heart1.jpg') url('/hearthand1.jpg') url('/hearthand1.jpg') url('/HeartBallon.jpg') url('/b&wHeartBalloon.jpg') url('/manyBalloons.jpg') url('/stickmanHeart.jpg') url('/stickmanCheck.jpg')
 }
 
 @keyframes imageShift {
     
-  /* 0% {
-      background-image: url('/dadAndSon.jpg');
-      background-size: cover;
-      
-    } */
-    
-    /* 40% {
-        background-image:url('/heart3.jpg')  ;
-      background-size: cover;
-  
-    } */
+
     0% {
         background-image:url('/heart1.jpg')  ;
       background-size: cover;
