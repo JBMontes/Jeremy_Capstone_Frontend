@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Styles/About.css'
 
 const About = () => {
@@ -42,6 +43,7 @@ const About = () => {
                 </ul>
             </div>
             
+           <footer> <Link to='/aboutDev'> <h2 className='h2Icon' >🧔🏿‍♂️    🧔🏻</h2></Link></footer>
         </div>
     );
 };
