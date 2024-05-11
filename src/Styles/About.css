@@ -65,10 +65,10 @@
   font-weight: 400;
   font-style: normal;
   /* margin: 10px; */
-  animation: logo-spin infinite 10s linear;
+  animation: logo-spins infinite 10s linear;
 }
 
-@keyframes logo-spin {
+@keyframes logo-spins {
   from {
     transform: rotateY(0deg);
   }
@@ -136,7 +136,7 @@
     font-style: normal;
 
     /* margin: 10px; */
-    animation: logo-spin infinite 10s linear;
+    animation: logo-spins infinite 10s linear;
     position: relative;
     animation: none;
     bottom: 40px;
