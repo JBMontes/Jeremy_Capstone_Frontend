@@ -44,7 +44,7 @@ const MedHistoryFetch = () => {
 
 
     if (loading) {
-        return <div className="Loading"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c4954169321565.5b7d0cbe74d11.gif" alt="loading" style={{ width: '500px', height: '500px', borderRadius: '80px' }} />{" "}</div>
+        return <div className="Loading"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c4954169321565.5b7d0cbe74d11.gif" alt="loading" style={{ width: '400px', height: '400px', borderRadius: '80px' }} />{" "}</div>
     } else if (error) {
         return <div className="Error">Error: {error} </div>;
     } else {

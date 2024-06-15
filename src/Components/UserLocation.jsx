@@ -278,7 +278,7 @@ const UserLocation = () => {
     return (
         <div className='userLocation'>
             <ToastContainer className='toastify' />
-            {loading ? <h2 className='userAddress'>Loading...</h2> : <h2 className='userAddress'> <img className='pinImg' src='/MapMarker2.svg'/> {userAddress}</h2>}
+            {loading ? <img className="userAddress" src="https://cdn.pixabay.com/animation/2023/11/29/03/37/03-37-06-789_512.gif" alt="loading" style={{ width: '100px', height: '110px', borderRadius: '80px', padding: "30px", border: "none" }} />: <h2 className='userAddress'> <img className='pinImg' src='/MapMarker2.svg'/> {userAddress}</h2>}
             
             <h3 className="directionHeader">Route & Direction</h3>
             <div className="mapButtons">
