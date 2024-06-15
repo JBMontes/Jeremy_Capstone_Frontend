@@ -46,13 +46,8 @@ const FriesNavbar = () => {
           <img src='../VillageLogo-Vect.svg' alt='Logo with heart in hand' className='logo' />
         </Link>
       </div>
-      {/* <div> */}
-        {/* <h2 className="timeNav">{tellTime()}</h2> */}
-        {/* <h5 className='logo-caption'>It takes a Village</h5> */}
-      {/* </div > */}
 
      <div className="colorC"> 
-
        <ColorChange />
      </div>
       
