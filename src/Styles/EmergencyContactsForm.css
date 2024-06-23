@@ -9,7 +9,6 @@
   align-items: center;
   background-color: rgb(234, 234, 234);
   color: black;
-  /* margin: 10px; */
 }
 
 form {
@@ -66,16 +65,5 @@ input {
   display: flex;
   align-items: center;
 }
-/* 
-  span{
-      border: 1px solid white;
-      background-color: rgb(232, 116, 45);
-      border-radius: 50%; 
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 8px;
-      padding-right: 8px;
-      font-size: small;
-      cursor: pointer; 
-  
-  } */
+
+

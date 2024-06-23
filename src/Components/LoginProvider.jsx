@@ -27,8 +27,6 @@ function LoginProvider({ children }) {
 
     const isAuthenticated = user && token
 
-    // axios.defaults.headers.common["Authorization"] = token
-
     return (
         <LoginData.Provider value={{
             API,

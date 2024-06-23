@@ -1,97 +1,79 @@
-.textBoxBody{
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+.textBoxBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.inputAndButton{
-    border-radius: 40px;;
-    /* border: 1px solid red; */
-    width: 40vw;
-    margin-top:20px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.inputAndButton {
+  border-radius: 40px;
+  width: 40vw;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.micro{
-    height: 30px;
-    width: 30px;
-    display:flex;
- justify-content: center;
- align-items: center;
- border-color: red;
- /* position:relative;
- top: 20px;
- left:-50px; */
- font-size:medium;
- border-radius: 60px;;
+.micro {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: red;
+  font-size: medium;
+  border-radius: 60px;
 }
 
-.micro:hover{
-    background-color: aliceblue;
-    border-color: red;
+.micro:hover {
+  background-color: aliceblue;
+  border-color: red;
 }
 
-/* input .textbox{
-    height: 40px;
-} */
-
-.textbox{
-    display: flex;
+.textbox {
+  display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
-/* margin-left:30px; */
-background-color: white;
-color:black;
+  background-color: white;
+  color: black;
 }
 
-.textButtons{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-   gap:10px;
+.textButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.send{
-    font-weight: bold;
+.send {
+  font-weight: bold;
 }
 
-.cancelSend{
-    /* height: 30px;
-    width: 30px; */
-    display:flex;
- justify-content: center;
- align-items: center;
- border-color: red;
- /* position:relative;
- top: 20px;
- left:-50px; */
- font-size:x-small;
- border-radius: 5px;
- font-weight: bold;
+.cancelSend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: red;
+  font-size: x-small;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
-.cancelSend:hover{
-    background-color: aliceblue;
-    border-color: red;
-    color:black;
+.cancelSend:hover {
+  background-color: aliceblue;
+  border-color: red;
+  color: black;
 }
 
 @media screen and (max-width: 430px) {
-    .inputAndButton{
-        border-radius: 40px;;
-        /* border: 1px solid red; */
-        width: 80vw;
-        margin-top:20px;
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
+  .inputAndButton {
+    border-radius: 40px;
+    width: 80vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }

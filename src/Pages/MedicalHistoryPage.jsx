@@ -19,9 +19,6 @@ const MedicalHistoryPage = () => {
 
     return (
         <div>
-            {/* <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Windows_10_Default_Profile_Picture.svg/2048px-Windows_10_Default_Profile_Picture.svg.png' />
-
-            <h1>{user.name}</h1> */}
 
             <h2>Medical Questionnaire <span onClick={toggleBlurb}>?</span></h2>
 
