@@ -36,21 +36,6 @@ const EditMedicalHistory = ({ medHistory, setEditMode, handleEditCancel, setShow
         .catch(err => console.log(err));
     };
 
-    // const handleDelete = () => {
-    //     fetch(`${API}/users/medical/${medical_id}`, {
-    //         method: "DELETE",
-    //         headers: {
-    //             "Authorization" : token
-    //         }
-    //     })
-    //     .then(res => res.json())
-    //     .then(res => {
-    //         console.log("Completed Delete");
-    //         setEditMode(false); 
-    //     })
-    //     .catch(err => console.log(err));
-    // };
-
     return (
         <div className="medicalHistoryForm">
             <form onSubmit={handleSubmit} className="newForm">

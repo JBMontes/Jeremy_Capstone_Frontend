@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useLoginDataProvider } from "../Components/LoginProvider";
 import { ToastContainer, toast } from 'react-toastify';
+import ChatApp from './ChatApp';
 import 'react-toastify/dist/ReactToastify.css';
 import "../Styles/GetVillage.css"
 
@@ -345,6 +346,13 @@ const GetVillage = () => {
             <div className='villageDetail'>
                 <h2>Village Name: {village.village_name}</h2>
                 <h3>Village Admin: {creatorInfo.name}</h3>
+
+
+             {/* Adding chat here */}
+                <button onClick={() => navigate('chat')}>Chat</button>
+             {/* Adding chat here */}
+
+
                 <button className="villageDelete" onClick={() => handleVillageDelete(village.village_id)}>Delete Village</button>
                 <div>
 
@@ -360,11 +368,14 @@ const GetVillage = () => {
                                     console.log("Deleting user with ID:", user.user_id);
                                     handleDelete(user.user_id);
                                 }}>❌</button>
+                                
                             </div>
                         ))}
                     </div>
+
                 </div>
             </div>
+          
             <Link className="villagePageBackLink" to='/users/villages'><button className="villagePageBackB">Back</button></Link>
         </div>
     );

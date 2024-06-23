@@ -99,37 +99,6 @@ const LoginSignup = () => {
         }
     };
 
-    // const handleLogin = (e) => {
-    //     e.preventDefault();
-    //     fetch(`${API}/users/login`, {
-    //         method: "POST",
-    //         body: JSON.stringify(loginFormData),
-    //         headers: {
-    //             "Content-Type": "application/json"
-    //         }
-    //     })
-    //         .then(res => res.json())
-    //         .then(res => {
-    //             if (res.token && res.user.user_id) {
-    //                 const { user, token } = res;
-    //                 setUser(user);
-    //                 setToken(token);
-    //                 setForm(loginFormData);
-    //                 setLoginFormData({
-    //                     username: '',
-    //                     password_hash: ''
-    //                 });
-    //                 navigate(`/users/home`);
-    //             } else {
-    //                 toast.error("Login failed: " + res.error, { autoClose: 3000 })
-    //                 console.log("Login failed:", res);
-    //             }
-    //         })
-    //         .catch(err => console.error("Login error:", err));
-    // };
-
-    // Event handler for signup form submission
-
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(API, signupFormData)

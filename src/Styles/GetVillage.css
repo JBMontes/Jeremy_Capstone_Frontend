@@ -9,16 +9,9 @@
   overflow-x: hidden;
   position: relative;
   top: 20px;
-  /* scrollbar-width: thin;  */
-  /* scrollbar-color: transparent transparent; */
-  /* margin-top:75px; */
 }
 
 .villageDetailHeader {
-  /* position:fixed;
-  color:white;
- top: 200px;
- left:330px; */
   display: none;
 }
 
@@ -29,7 +22,6 @@
   color: black;
   max-height: 270px;
   min-width: 500px;
-  /* min-height: 50px; */
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
@@ -45,8 +37,6 @@
   background-color: rgb(234, 234, 234);
   border-radius: 50px;
   color: black;
-
-  /* margin-bottom: 10px; */
 }
 .addB {
   display: flex;
@@ -56,7 +46,6 @@
 }
 
 .addButton {
-  /* margin-bottom: 7px; */
   height: 30px;
   border-radius: 30px;
   display: flex;
@@ -135,8 +124,6 @@
   height: 50vh;
   max-height: 200px;
   width: 270px;
-  /* display:flex;
-  flex-direction: column; */
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
@@ -246,11 +233,6 @@
     margin-top: 75px;
   }
 
-  /* .getVillageBody{
-    display: flex;
-    flex-direction: column;
-  } */
-
   .getVillForm {
     display: flex;
     flex-direction: column;
@@ -284,7 +266,6 @@
     color: black;
     max-height: 200px;
     min-width: 95%;
-    /* min-height: 50px; */
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
@@ -304,7 +285,6 @@
     background-color: rgb(234, 234, 234);
     border-radius: 20px;
     color: black;
-    /* width: 100vw; */
     max-height: 195px;
     overflow-y: auto;
     position: relative;
@@ -353,11 +333,6 @@
     margin-top: 75px;
   }
 
-  /* .getVillageBody{
-    display: flex;
-    flex-direction: column;
-  } */
-
   .getVillForm {
     display: flex;
     flex-direction: column;
@@ -391,7 +366,6 @@
     color: black;
     max-height: 200px;
     min-width: 95%;
-    /* min-height: 50px; */
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
@@ -411,7 +385,6 @@
     background-color: rgb(234, 234, 234);
     border-radius: 20px;
     color: black;
-    /* width: 100vw; */
     max-height: 195px;
     overflow-y: auto;
     position: relative;
@@ -457,11 +430,6 @@
     margin-top: 75px;
   }
 
-  /* .getVillageBody{
-    display: flex;
-    flex-direction: column;
-  } */
-
   .getVillForm {
     display: flex;
     flex-direction: column;
@@ -515,7 +483,6 @@
     background-color: rgb(234, 234, 234);
     border-radius: 20px;
     color: black;
-    /* width: 100vw; */
     max-height: 195px;
     overflow-y: auto;
     position: relative;
@@ -567,11 +534,6 @@
     margin-top: 75px;
   }
 
-  /* .getVillageBody{
-    display: flex;
-    flex-direction: column;
-  } */
-
   .getVillForm {
   
     display: flex;
@@ -621,7 +583,6 @@
     color: black;
     max-height: 270px;
     min-width: 90%;
-    /* min-height: 50px; */
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
@@ -641,7 +602,6 @@
     background-color: rgb(234, 234, 234);
     border-radius: 20px;
     color: black;
-    /* width: 100vw; */
     max-height: 195px;
     overflow-y: auto;
     position: relative;

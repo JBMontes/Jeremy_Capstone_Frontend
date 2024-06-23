@@ -210,7 +210,6 @@ const StateEmergency = ({ setTranscription }) => {
                     }));
                     setVillageUsers(usersWithInfo);
                 } else {
-                    // console.error("Data is not an array:", data);
                     // Handle the error or set an empty array based on your needs
                     setVillageUsers([]);
                 }

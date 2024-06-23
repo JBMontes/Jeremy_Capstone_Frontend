@@ -297,11 +297,9 @@ const UserLocation = () => {
                 </div>
             </div>
             <div className="mapDivBody">
-                {/* <div className="mapBoxDiv"> */}
+            
                 <div id="map"></div>
-                {/* <div id="map" style={{ width: '40vw', height: '400px', borderRadius: '60px' }}></div> */}
-                {/* </div> */}
-
+           
                 {directions && (
                     <div className="mapDirections">
                         <div className="closeDirections">
